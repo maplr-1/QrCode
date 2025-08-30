@@ -1,4 +1,4 @@
-QR Code Generator & Decoder
+**QR Code Generator & Decoder**
 
 This project provides two simple Python utilities:
 1. **QR Code Generator** – Create QR codes from any text and save them as images.
@@ -6,7 +6,7 @@ This project provides two simple Python utilities:
 
 ---
 
-Features
+**Features**
 - Generate QR codes from any input text.
 - Save QR codes in `.png` format.
 - Option to store QR codes in a **default folder (`QrCodes/`)** or a **custom path**.
@@ -17,10 +17,12 @@ Features
 ---
 
 
-Requirements
+**Requirements**
+
 Make sure you have Python **3.8+** installed.
 
 Install the required libraries:
+
 ```bash
 pip install qrcode pillow pyzbar
 ```
@@ -43,44 +45,7 @@ Windows:
 
 ---
 
-Usage
-Generate a QR Code
-
-Run the generator script:
-
-python qr_generator.py
-
-Follow the prompts:
-
-    Enter a file name.
-
-    Enter the text you want to encode.
-
-    Choose where to save (QrCodes folder or a custom location).
-
-The QR code will be saved as a .png file.
-
----
-
-Decode QR Codes
-Run the decoder script:
-
-python qr_decoder.py
-
-It will:
-
-Look for all .png files in the QrCodes/ folder.
-
-Decode and print the text stored in each QR code.
-
-Example output:
-
- ./QrCodes/example.png
- Data: https://example.com
-
----
-
-Notes
+**Notes**
 
 Always make sure the QrCodes/ directory exists before running.
 
@@ -90,7 +55,7 @@ KeyboardInterrupt (Ctrl+C) gracefully exits the generator script.
 
 ---
 
-Example
+**Example**
 
 Generate a QR code with text:
 
@@ -107,7 +72,3 @@ Choose(1 OR 2): 1
 
 File saved as QrCodes/example.png
 
-Decode all QR codes in the folder:
-
-    ./QrCodes/example.png
-    Data: example
