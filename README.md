@@ -26,18 +26,18 @@ Install the required libraries:
 ```bash
 pip install qrcode pillow pyzbar
 ```
-Additionally, pyzbar requires the zbar library:
+#Additionally, pyzbar requires the zbar library:
 
- Linux (Arch/Manjaro):
+-Linux (Arch/Manjaro):
     
     sudo pacman -S zbar
 
-Ubuntu/Debian: 
+-Ubuntu/Debian: 
     
     sudo apt install libzbar0
     
-MacOS: 
-   
+-MacOS: 
+
     brew install zbar
 
 Windows: 
